@@ -1,2 +1,1 @@
-# Azure-Terraform
-Create Infrastructure on Azure using Terraform
+# Create Infrastructure on Azure using Terraform
