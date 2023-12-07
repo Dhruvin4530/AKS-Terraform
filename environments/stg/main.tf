@@ -14,4 +14,6 @@ module "eks" {
   location            = var.region
   resource_group_name = module.vnet.resource_group_name
   environment         = var.environment
+  max_count           = var.max_node_count
+  min_count           = var.min_node_count
 }

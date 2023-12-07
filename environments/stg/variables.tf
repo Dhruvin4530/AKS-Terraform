@@ -27,3 +27,15 @@ variable "environment" {
   type        = string
   description = "Environment"
 }
+
+# max node count 
+variable "max_node_count" {
+  type        = number
+  description = "Maximun node count for worker node"
+}
+
+# min node count 
+variable "min_node_count" {
+  type        = number
+  description = "Minimum node count for worker node"
+}
