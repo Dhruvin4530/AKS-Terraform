@@ -21,3 +21,9 @@ variable "subnetCIDRs" {
   type        = list(string)
   description = "Subnet CIDRs"
 }
+
+# environment
+variable "environment" {
+  type        = string
+  description = "Environment"
+}
