@@ -27,3 +27,15 @@ variable "min_count" {
   type        = number
   description = "Minimum node count for worker node"
 }
+
+# subnet ID
+variable "vnet_subnet_id" {
+  type        = string
+  description = "Subnet ID for worker node"
+}
+
+# Size of worker nodes
+variable "node_vm_size" {
+  type        = string
+  description = "Worker nodes size"
+}

@@ -39,3 +39,9 @@ variable "min_node_count" {
   type        = number
   description = "Minimum node count for worker node"
 }
+
+# size of worker node
+variable "node_vm_size" {
+  type        = string
+  description = "Size of worker node"
+}

@@ -19,7 +19,7 @@ variable "address_space" {
 # subnet CIDRs
 variable "subnet_address_prefix" {
   type        = list(string)
-  description = "CIDR of subnets"
+  description = "CIDR of subnet"
 }
 
 # environment
